@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44EB9EB12186BCF000FFEBCF /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB9EB02186BCF000FFEBCF /* BezierPathView.m */; };
 		B50EAD97218495DF00947877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B50EAD96218495DF00947877 /* AppDelegate.m */; };
 		B50EAD9A218495DF00947877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50EAD99218495DF00947877 /* ViewController.m */; };
 		B50EAD9D218495DF00947877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EAD9B218495DF00947877 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44EB9EAF2186BCF000FFEBCF /* BezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		44EB9EB02186BCF000FFEBCF /* BezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 		B50EAD92218495DF00947877 /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50EAD95218495DF00947877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B50EAD96218495DF00947877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				B50EAD9E218495E100947877 /* Assets.xcassets */,
 				B50EADAC2184A2CB00947877 /* DropitBehavior.h */,
 				B50EADAD2184A2CB00947877 /* DropitBehavior.m */,
+				44EB9EAF2186BCF000FFEBCF /* BezierPathView.h */,
+				44EB9EB02186BCF000FFEBCF /* BezierPathView.m */,
 			);
 			path = Dropit;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			files = (
 				B50EAD9A218495DF00947877 /* ViewController.m in Sources */,
 				B50EADAE2184A2CB00947877 /* DropitBehavior.m in Sources */,
+				44EB9EB12186BCF000FFEBCF /* BezierPathView.m in Sources */,
 				B50EADA5218495E100947877 /* main.m in Sources */,
 				B50EAD97218495DF00947877 /* AppDelegate.m in Sources */,
 			);
